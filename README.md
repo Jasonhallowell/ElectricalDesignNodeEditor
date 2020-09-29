@@ -1,11 +1,11 @@
 ### Purpose
 
-**NodeEditor** is conceived as a general-purpose Qt-based library aimed at
-graph-controlled data processing.  Nodes represent algorithms with certain inputs
-and outputs. Connections transfer data from the output (source) of the first node
-to the input (sink) of the second one.
+**Electrical Design Node Editor** is conceived as a QT-based Machine Electronics Design Program aimed at
+graph-controlled component placement and processing.  Nodes represent components, pass throughs (ex: cable track), locations with certain inputs
+and outputs. Connections transfer data from the output (ex: source component) of the first node
+to the input (sink) of the second one (ex: Location). The end goal is to automate electrical design saving time and money for companies making factory equipment all accross the world. 
 
-**NodeEditor** framework is a Visual [Dataflow
+**Electrical Design Node Editor** framework is a Visual [Dataflow
 Programming](https://en.wikipedia.org/wiki/Dataflow_programming) tool.  A library
 client defines models and registers them in the data model registry.  Further
 work is driven by events taking place in DataModels and Nodes.  The model
