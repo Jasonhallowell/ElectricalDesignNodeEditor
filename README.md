@@ -18,8 +18,8 @@ connections updating  the whole graph.
 
 ### Platforms
 
-* OSX (Apple Clang - LLVM 3.6), Linux (x64, gcc-7.0, clang-7): [![Build Status](https://travis-ci.org/paceholder/nodeeditor.svg?branch=master)](https://travis-ci.org/paceholder/nodeeditor)
-* Windows (Win32, x64, msvc2017, MinGW 5.3): [![Build status](https://ci.appveyor.com/api/projects/status/wxp47wv3uyyiujjw/branch/master?svg=true)](https://ci.appveyor.com/project/paceholder/nodeeditor/branch/master)
+* OSX (Apple Clang - LLVM 3.6), Linux (x64, gcc-7.0, clang-7):
+* Windows (Win32, x64, msvc2017, MinGW 5.3):
 
 
 ### Dependencies
