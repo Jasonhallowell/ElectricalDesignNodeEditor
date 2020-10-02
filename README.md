@@ -38,18 +38,6 @@ connections updating  the whole graph.
 * JSON-based interface styles
 * Saving scenes to JSON files
 
-### Building
-
-#### Linux
-
-~~~
-git clone git@github.com:paceholder/nodeeditor.git
-cd nodeeditor
-mkdir build
-cd build
-cmake ..
-make -j && make install
-~~~
 
 #### Qt Creator
 
@@ -61,57 +49,6 @@ make -j && make install
 
 ### Roadmap
 
-1. Extend set of examples
+1. Turn Source into Components and Location nodes
 2. GUI: fix scrolling for scene view window scrolling
-3. Implement grouping nodes
-4. Split graph and GUI parts
-5. Build data propagation on top of the graph code
 
-### Citing
-
-    Dmitry Pinaev et al, Qt5 Node Editor, (2017), GitHub repository, https://github.com/paceholder/nodeeditor
-
-BibTeX
-
-    @misc{Pinaev2017,
-      author = {Dmitry Pinaev et al},
-      title = {Qt5 Node Editor},
-      year = {2017},
-      publisher = {GitHub},
-      journal = {GitHub repository},
-      howpublished = {\url{https://github.com/paceholder/nodeeditor}},
-      commit = {1d1757d09b03cea0e4921bc19659465fe6e65b9b}
-    }
-
-
-### Youtube video:
-
-[![Youtube demonstration](https://bitbucket.org/paceholder/nodeeditor/raw/master/pictures/vid1.png)](https://www.youtube.com/watch?v=pxMXjSvlOFw)
-
-### Now with styles
-
-
-[![Styles](https://bitbucket.org/paceholder/nodeeditor/raw/master/pictures/style_example.png)](https://www.youtube.com/watch?v=i_pB-Y0hCYQ)
-
-
-### Buy me a beer
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/DmitryPinaev)
-
-### Showcase
-
-#### [Chigraph](https://github.com/chigraph/chigraph)
-
-Chigraph is a programming language for beginners that is unique in that it is an
-intuitive flow graph:
-
-![chigraph screenshot](pictures/chigraph.png)
-
-It features easy bindings to C/C++, package management, and a cool interface.
-
-#### [Spkgen particle engine editor](https://github.com/fredakilla/spkgen)
-
-![spkgen screenshot](pictures/spkgen.png)
-
-Spkgen is an editor for the SPARK particles engine using a node-based interface
-to create particles effects for games.
